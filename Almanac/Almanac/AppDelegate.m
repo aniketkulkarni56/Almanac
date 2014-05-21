@@ -14,12 +14,24 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+- (void)createRootViewOfApplication {
+
+    CalendarVC *calVC = [[CalendarVC alloc]init];
+    [self.window setRootViewController:calVC];
+    [calVC.view setBackgroundColor:[UIColor clearColor]];
+    
+    
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [self createRootViewOfApplication];
+    
     return YES;
 }
 

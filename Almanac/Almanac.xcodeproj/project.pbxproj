@@ -22,6 +22,14 @@
 		60AD3273191A4DE60056B2DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AD3257191A4DE60056B2DE /* CoreData.framework */; };
 		60AD327B191A4DE60056B2DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60AD3279191A4DE60056B2DE /* InfoPlist.strings */; };
 		60AD327D191A4DE60056B2DE /* AlmanacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD327C191A4DE60056B2DE /* AlmanacTests.m */; };
+		60AD3288191AADEE0056B2DE /* CalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD3287191AADEE0056B2DE /* CalendarVC.m */; };
+		60AD3289191AADEE0056B2DE /* CalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD3287191AADEE0056B2DE /* CalendarVC.m */; };
+		60AD328C191AC3EC0056B2DE /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD328B191AC3EB0056B2DE /* CalendarCell.m */; };
+		60AD328D191AC3EC0056B2DE /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD328B191AC3EB0056B2DE /* CalendarCell.m */; };
+		60AD3290191AC6BE0056B2DE /* CalendarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD328F191AC6BE0056B2DE /* CalendarLayout.m */; };
+		60AD3291191AC6BE0056B2DE /* CalendarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD328F191AC6BE0056B2DE /* CalendarLayout.m */; };
+		60AD3296191CA2E70056B2DE /* CalculationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD3295191CA2E70056B2DE /* CalculationFactory.m */; };
+		60AD3297191CA2E70056B2DE /* CalculationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD3295191CA2E70056B2DE /* CalculationFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		60AD3278191A4DE60056B2DE /* AlmanacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlmanacTests-Info.plist"; sourceTree = "<group>"; };
 		60AD327A191A4DE60056B2DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60AD327C191A4DE60056B2DE /* AlmanacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlmanacTests.m; sourceTree = "<group>"; };
+		60AD3286191AADEE0056B2DE /* CalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarVC.h; path = Controller/CalendarVC.h; sourceTree = "<group>"; };
+		60AD3287191AADEE0056B2DE /* CalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarVC.m; path = Controller/CalendarVC.m; sourceTree = "<group>"; };
+		60AD328A191AC3EB0056B2DE /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarCell.h; path = Controller/CalendarCell.h; sourceTree = "<group>"; };
+		60AD328B191AC3EB0056B2DE /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarCell.m; path = Controller/CalendarCell.m; sourceTree = "<group>"; };
+		60AD328E191AC6BE0056B2DE /* CalendarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarLayout.h; path = Controller/CalendarLayout.h; sourceTree = "<group>"; };
+		60AD328F191AC6BE0056B2DE /* CalendarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarLayout.m; path = Controller/CalendarLayout.m; sourceTree = "<group>"; };
+		60AD3293191CA1F10056B2DE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		60AD3294191CA2E70056B2DE /* CalculationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationFactory.h; sourceTree = "<group>"; };
+		60AD3295191CA2E70056B2DE /* CalculationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +134,13 @@
 			children = (
 				60AD3262191A4DE60056B2DE /* AppDelegate.h */,
 				60AD3263191A4DE60056B2DE /* AppDelegate.m */,
+				60AD3286191AADEE0056B2DE /* CalendarVC.h */,
+				60AD3287191AADEE0056B2DE /* CalendarVC.m */,
+				60AD328A191AC3EB0056B2DE /* CalendarCell.h */,
+				60AD328B191AC3EB0056B2DE /* CalendarCell.m */,
+				60AD328E191AC6BE0056B2DE /* CalendarLayout.h */,
+				60AD328F191AC6BE0056B2DE /* CalendarLayout.m */,
+				60AD3292191CA1DD0056B2DE /* Model */,
 				60AD3268191A4DE60056B2DE /* Images.xcassets */,
 				60AD3265191A4DE60056B2DE /* Almanac.xcdatamodeld */,
 				60AD325A191A4DE60056B2DE /* Supporting Files */,
@@ -151,6 +175,16 @@
 				60AD3279191A4DE60056B2DE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60AD3292191CA1DD0056B2DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60AD3293191CA1F10056B2DE /* Constants.h */,
+				60AD3294191CA2E70056B2DE /* CalculationFactory.h */,
+				60AD3295191CA2E70056B2DE /* CalculationFactory.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				60AD3267191A4DE60056B2DE /* Almanac.xcdatamodeld in Sources */,
+				60AD3290191AC6BE0056B2DE /* CalendarLayout.m in Sources */,
 				60AD3264191A4DE60056B2DE /* AppDelegate.m in Sources */,
+				60AD3288191AADEE0056B2DE /* CalendarVC.m in Sources */,
 				60AD3260191A4DE60056B2DE /* main.m in Sources */,
+				60AD3296191CA2E70056B2DE /* CalculationFactory.m in Sources */,
+				60AD328C191AC3EC0056B2DE /* CalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AD328D191AC3EC0056B2DE /* CalendarCell.m in Sources */,
+				60AD3289191AADEE0056B2DE /* CalendarVC.m in Sources */,
+				60AD3297191CA2E70056B2DE /* CalculationFactory.m in Sources */,
 				60AD327D191A4DE60056B2DE /* AlmanacTests.m in Sources */,
+				60AD3291191AC6BE0056B2DE /* CalendarLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +495,7 @@
 				60AD3282191A4DE60056B2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60AD3283191A4DE60056B2DE /* Build configuration list for PBXNativeTarget "AlmanacTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +504,7 @@
 				60AD3285191A4DE60056B2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
